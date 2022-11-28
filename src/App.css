@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.addInput{
+margin: 24px;
+
+}
+
+.bs_button{
+ width: 20vw;
+}
+
+.button{
+  padding: 8px;
+  border-radius: 16px;
+  width: 10vw;
+  background-color: rgb(123, 236, 100);
+font-weight: bold;
+border-color: rgba(237, 247, 109, 0.932);
+}
+.editButton{
+  padding: 8px;
+  border-radius: 16px;
+  width: 10vw;
+  background-color: rgb(34, 31, 31);
+font-weight: bold;
+color: rgb(22, 206, 175);
+border-color: rgba(68, 255, 215, 0.932);
+}
+
+@media(max-width : 600px){
+  .editInput{
+    width: 80vw;
+  }
+  .button{
+ 
+    width: 110px;
+  }
+}
+
+@media(min-width : 600px){
+  .editInput{
+    width: 60vw;
+  }
+}
+
+@media(min-width : 1000px){
+  .editInput{
+    width: 40vw;
+  }
+}
